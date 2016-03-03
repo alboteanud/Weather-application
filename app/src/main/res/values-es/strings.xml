@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+
+
+    <string name="today">Hoy</string>
+    <string name="tomorrow">mañana</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="action_map">Mapa</string>
+    <string name="action_share">Compartir</string>
+    <string name="pref_location_label">Ubicación</string>
+    <string name="pref_enable_notifications_label">Mostrar notificaciones</string>
+    <!--<string name="pref_enable_notifications_true">Activado</string>-->
+    <!--<string name="pref_enable_notifications_false">Desactivado</string>-->
+    <string name="pref_units_label">Unidades</string>
+    <string name="wind">Viento</string>
+    <string name="pressure">Presión</string>
+    <string name="humidity">Humedad</string>
+    <string name="format_wind_kmh" translatable="true"><xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="format_pressure" translatable="true"><xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+    <string name="pref_units_label_metric">Metric</string>
+    <string name="pref_units_label_imperial">Imperial</string>
+    <string name="pref_art_pack_label">Icon Pack</string>
+    <string name="pref_art_pack_label_sunshine">Sunshine</string>
+    <string name="pref_art_pack_label_cute_dogs">Cute dogs</string>
+    <!--<string name="semn_special"></string>-->
+</resources>

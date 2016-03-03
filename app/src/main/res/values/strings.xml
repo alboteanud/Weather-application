@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="pref_location_default" translatable="false">Colorado Springs, Colorado</string>
+    <string name="app_name" translatable="false">Colorado Springs</string>
+    <string name="content_authority" translatable="false">com.alboteanu.sunshine.ColoradoSprings</string>
+    <string name="sync_account_type" translatable="false">ColoradoSprings.sunshine.alboteanu.com</string>
+
+    <string name="photo_by">Photo by Johnny</string>
+
+    <string name="banner" translatable="false">ca-app-pub-3931793949981809/1383870774</string>
+    <string name="interstitial" translatable="false">ca-app-pub-3931793949981809/5196681170</string>
+    <string name="banner_Mihaela" translatable="false">ca-app-pub-3931793949981809/4147537979</string>
+    <string name="interstitial_Mihaela" translatable="false">ca-app-pub-3931793949981809/5484670370</string>
+    <string name="banner_Petru" translatable="false">ca-app-pub-3931793949981809/1182365579</string>
+    <string name="interstitial_Petru" translatable="false">ca-app-pub-3931793949981809/2252002378</string>
+    <string name="test_device" translatable="false">D7C3FED6C0273D67D38E0186CFA3B220</string>
+    <string name="project_number" translatable="false">827537732216</string>
+    <!--
+         By convention, "action" denotes that this String will be used as the label for an Action,
+         typically from the action bar.  The ActionBar is limited real estate, so shorter is better.
+    -->
+    <string name="action_settings">Settings</string>
+    <string name="action_map">Map location</string>
+    <string name="action_share">Share</string>
+
+
+    <string name="title_activity_detail" translatable="false">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Label for the location preference [CHAR LIMIT=30] -->
+    <string name="pref_location_label">Location</string>
+
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <!-- Key name for storing location status in SharedPreferences -->
+    <string name="pref_location_status_key" translatable="false">loc-status</string>
+
+
+    <!-- Strings used when displaying the state of the Location in settings -->
+    <string name="pref_location_error_description" translatable="false">Invalid Location (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+    <string name="pref_location_unknown_description" translatable="false">Validating Location... (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+
+    <!-- Strings related to Notification Enabled preference -->
+    <string name="pref_enable_notifications_key" translatable="false">enable_notifications</string>
+    <string name="pref_enable_notifications_label">Weather Notifications</string>
+
+    <!-- <string name="pref_enable_notifications_true" translatable="false">Enabled</string>
+     <string name="pref_enable_notifications_false" translatable="false">Not Enabled</string> -->
+    <string name="pref_enable_notifications_true" translatable="false"> </string>
+    <string name="pref_enable_notifications_false" translatable="false"> </string>
+    <string name="pref_enable_notifications_default" translatable="false">true</string>
+
+    <!-- Strings for formatting weather-related data -->
+
+    <!-- Label for the temperature units preference [CHAR LIMIT=30] -->
+    <string name="pref_units_label">Units</string>
+
+    <!-- Label for metric option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_units_label_metric">Metric</string>
+
+    <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_units_label_imperial">Imperial</string>
+
+    <!-- Label for the art pack preference [CHAR LIMIT=30] -->
+    <string name="pref_art_pack_label">Icon Pack</string>
+
+    <!-- Label for Sunshine option in art pack preference [CHAR LIMIT=25] -->
+    <string name="pref_art_pack_label_sunshine">Sunshine</string>
+
+    <!-- Label for cute dogs option in art pack preference [CHAR LIMIT=25] -->
+    <string name="pref_art_pack_label_cute_dogs">Cute dogs</string>
+
+    <!-- Key name for temperature unit preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_units_key" translatable="false">units</string>
+
+    <!-- Value in SharedPreferences for metric temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_units_metric" translatable="false">metric</string>
+
+    <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_units_imperial" translatable="false">imperial</string>
+
+    <!-- Key name for art pack unit preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_art_pack_key" translatable="false">art_pack</string>
+
+    <!-- Value in SharedPreferences for Sunshine art pack option [CHAR LIMIT=NONE] -->
+    <string name="pref_art_pack_sunshine" translatable="false">https://raw.githubusercontent.com/udacity/Sunshine-Version-2/sunshine_master/app/src/main/res/drawable-xxhdpi/art_%s.png</string>
+
+    <!-- Value in SharedPreferences for cute dogs art pack  option [CHAR LIMIT=NONE] -->
+    <string name="pref_art_pack_cute_dogs" translatable="false">https://raw.githubusercontent.com/udacity/Sunshine-Version-2/sunshine_master/app/src/main/res/drawable-mdpi/art_%s.png</string>
+
+
+    <string name="pref_label_color_blue" translatable="false">blue</string>
+    <string name="pref_label_color_red" translatable="false">red</string>
+    <string name="pref_label_color_green" translatable="false">green</string>
+    <string name="pref_label_color_gray" translatable="false">gray</string>
+    <string name="pref_label_color_yellow" translatable="false">yellow</string>
+
+    <!-- Language-specific constants -->
+    <string name="today">Today</string>
+
+    <!-- For labelling tomorrow's forecast [CHAR LIMIT=15] -->
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Date format [CHAR LIMIT=NONE] -->
+    <string name="format_full_friendly_date" translatable="false"><xliff:g id="today_friendly">%1$s</xliff:g>, <xliff:g id="day_and_month">%2$s</xliff:g></string>
+    <!--<string name="format_full_friendly_date" translatable="false"><xliff:g id="today">%1$s </xliff:g> <xliff:g id="month_day">%2$s</xliff:g><xliff:g id="semn_special">%3$s</xliff:g></string>-->
+
+    <!-- Strings for formatting weather-related data -->
+    <!-- Temperature format [CHAR LIMIT=5 -->
+    <string name="format_temperature" translatable="false"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+
+    <string name="wind">Wind</string>
+    <!-- Windspeed formats -->
+    <!-- Wind in mph [CHAR LIMIT=25] -->
+    <string name="format_wind_mph" translatable="false"><xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g></string>
+    <!-- Wind in kph [CHAR LIMIT=25] -->
+    <string name="format_wind_kmh" translatable="true"><xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+
+    <string name="pressure">Pressure</string>
+    <!-- Pressure format CHAR LIMIT=25] -->
+    <string name="format_pressure" translatable="true"><xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+
+    <string name="humidity">Humidity</string>
+    <!-- Humidity format CHAR LIMIT=25]-->
+    <string name="format_humidity" translatable="false"><xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+
+
+    <!-- Notification Format -->
+    <!--<string name="format_notification">Forecast: <xliff:g id="condition">%1$s</xliff:g> High: <xliff:g id="high">%2$s</xliff:g> Low: <xliff:g id="low">%3$s</xliff:g></string>-->
+    <string name="format_notification" translatable="false"><xliff:g id="condition">%1$s </xliff:g> <xliff:g id="high"> %2$s</xliff:g> / <xliff:g id="low">%3$s</xliff:g>  </string>
+    <string name="format_notification_only_high" translatable="false"><xliff:g id="condition">%1$s </xliff:g> <xliff:g id="high"> %2$s</xliff:g></string>
+
+    <!-- Strings related to Notification preference -->
+    <string name="pref_last_notification" translatable="false">last_notification</string>
+    <string name="pref_last_background_change" translatable="false">last_background_change</string>
+    <string name="pref_background_image_key" translatable="false">background_image_key</string>
+
+    <!-- Strings related to Widgets -->
+    <string name="title_widget_today" translatable="false">Today</string>
+    <string name="title_widget_detail" translatable="false">Details</string>
+
+    <!-- Strings related to Muzei Source -->
+    <string name="muzei_description" translatable="false">Today\'s weather</string>
+
+    <!-- Empty Weather Database -->
+    <string name="empty_forecast_list" translatable="false">loading...</string>
+    <string name="empty_forecast_list_no_network" translatable="false">No weather information available. The network is not available to fetch weather data.</string>
+    <string name="empty_forecast_list_server_down" translatable="false">No weather information available. The server is not returning data.</string>
+    <string name="empty_forecast_list_server_error" translatable="false">No weather information available. The server is not returning valid data. Please check for an updated version of Sunshine.</string>
+    <string name="empty_forecast_list_invalid_location" translatable="false">No weather information available. The location in settings is not recognized by the weather server.</string>
+
+    <!-- A11y -->
+    <string name="a11y_forecast" translatable="false">Forecast: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_forecast_icon" translatable="false">Forecast icon: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_high_temp" translatable="false">High: <xliff:g id="high">%1$s</xliff:g></string>
+    <string name="a11y_low_temp" translatable="false">Low: <xliff:g id="low">%1$s</xliff:g></string>
+    <string name="a11y_humidity" translatable="false">Humidity: <xliff:g id="humidity">%1$s</xliff:g></string>
+    <string name="a11y_pressure" translatable="false">Barometric Pressure: <xliff:g id="pressure">%1$s</xliff:g></string>
+    <string name="a11y_wind" translatable="false">Wind speed and direction: <xliff:g id="wind">%1$s</xliff:g></string>
+
+    <!-- Weather Conditions -->
+    <string name="condition_2xx" translatable="false">Storm</string>
+    <string name="condition_3xx" translatable="false">Drizzle</string>
+    <string name="condition_500" translatable="false">Light Rain</string>
+    <string name="condition_501" translatable="false">Moderate Rain</string>
+    <string name="condition_502" translatable="false">Heavy Rain</string>
+    <string name="condition_503" translatable="false">Intense Rain</string>
+    <string name="condition_504" translatable="false">Extreme Rain</string>
+    <string name="condition_511" translatable="false">Freezing Rain</string>
+    <string name="condition_520" translatable="false">Light Shower</string>
+    <string name="condition_521" translatable="false">Shower</string>
+    <string name="condition_522" translatable="false">Heavy Shower</string>
+    <string name="condition_531" translatable="false">Ragged Shower</string>
+    <string name="condition_600" translatable="false">Light Snow</string>
+    <string name="condition_601" translatable="false">Snow</string>
+    <string name="condition_602" translatable="false">Heavy Snow</string>
+    <string name="condition_611" translatable="false">Sleet</string>
+    <string name="condition_612" translatable="false">Shower Sleet</string>
+    <string name="condition_615" translatable="false">Rain and Snow</string>
+    <!-- light rain and snow -->
+    <string name="condition_616" translatable="false">Rain and Snow</string>
+    <string name="condition_620" translatable="false">Shower Snow</string>
+    <!-- light shower snow -->
+    <string name="condition_621" translatable="false">Shower Snow</string>
+    <string name="condition_622" translatable="false">Shower Snow</string>
+    <!-- heavy shower snow -->
+    <string name="condition_701" translatable="false">Mist</string>
+    <string name="condition_711" translatable="false">Smoke</string>
+    <string name="condition_721" translatable="false">Haze</string>
+    <string name="condition_731" translatable="false">Sand, Dust</string>
+    <string name="condition_741" translatable="false">Fog</string>
+    <string name="condition_751" translatable="false">Sand</string>
+    <string name="condition_761" translatable="false">Dust</string>
+    <string name="condition_762" translatable="false">Volcanic Ash</string>
+    <string name="condition_771" translatable="false">Squalls</string>
+    <string name="condition_781" translatable="false">Tornado</string>
+    <string name="condition_800" translatable="false">Clear</string>
+    <string name="condition_801" translatable="false">Mostly Clear</string>
+    <string name="condition_802" translatable="false">Scattered Clouds</string>
+    <string name="condition_803" translatable="false">Broken Clouds</string>
+    <string name="condition_804" translatable="false">Overcast Clouds</string>
+    <string name="condition_900" translatable="false">Tornado</string>
+    <string name="condition_901" translatable="false">Tropical Storm</string>
+    <string name="condition_902" translatable="false">Hurricane</string>
+    <string name="condition_903" translatable="false">Cold</string>
+    <string name="condition_904" translatable="false">Hot</string>
+    <string name="condition_905" translatable="false">Windy</string>
+    <string name="condition_906" translatable="false">Hail</string>
+    <string name="condition_951" translatable="false">Calm</string>
+    <string name="condition_952" translatable="false">Light Breeze</string>
+    <string name="condition_953" translatable="false">Gentle Breeze</string>
+    <string name="condition_954" translatable="false">Breeze</string>
+    <!-- moderate breeze -->
+    <string name="condition_955" translatable="false">Fresh Breeze</string>
+    <string name="condition_956" translatable="false">Strong Breeze</string>
+    <string name="condition_957" translatable="false">High Wind</string>
+    <string name="condition_958" translatable="false">Gale</string>
+    <string name="condition_959" translatable="false">Severe Gale</string>
+    <string name="condition_960" translatable="false">Storm</string>
+    <string name="condition_961" translatable="false">Violent Storm</string>
+    <string name="condition_962" translatable="false">Hurricane</string>
+
+    <string name="condition_unknown" translatable="false">Unknown (<xliff:g id="low">%1$s</xliff:g>)</string>
+
+    <!-- For Shared Element Transitions -->
+    <string name="detail_icon_transition_name" translatable="false">TN_DetailIcon</string>
+
+    <string name="icon_descr" translatable="false">sun</string>
+    <string name="wiget_description" translatable="false">icon</string>
+    <!--<string name="semn_special"></string>  &lt;!&ndash;  日  special pt China&ndash;&gt;-->
+    <string name="backgroundImage" translatable="false">background image</string>
+
+
+
+</resources>
