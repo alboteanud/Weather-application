@@ -28,7 +28,7 @@ Screenshots
 ![Phone](screenshots/PhoneMain.png "Main activity")
 ![Phone widget](screenshots/widget detail.png "Detailed widget ")
 ![Phone widget](screenshots/widget.png "Simple widget")
-![Weather detail snow](screenshots/weather detail snow.png "Detail activity snow")
+![Weather detail snow](screenshots/weather__detail snow.png "Detail activity snow")
 ![Weather detail clear](screenshots/clear.png "Detail activity clear")
 ![Weather detail rain](screenshots/rain.png "Detail activity rain")
 
