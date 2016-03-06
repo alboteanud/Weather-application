@@ -25,10 +25,13 @@ This sample uses the Gradle build system.  To build this project, use the
 Screenshots
 -----------
 
-![Phone](screenshots/PhoneMain.png "Main activity")
-![Phone widget](screenshots/widget.png "Widget")
+![Phone main activity](screenshots/PhoneMain.png "Main activity")
+![Widget details](screenshots/widget.png "Widget details")
+![Simple Widget](screenshots/simpleWidget.png "Simple widget")
+![Weather notification](screenshots/notification.png "Notification")
 ![Weather detail clear](screenshots/clear.png "Details clear")
 ![Weather detail rain](screenshots/rain.png "Details rain")
+
 
 
 Support
