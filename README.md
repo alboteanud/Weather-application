@@ -26,7 +26,7 @@ Screenshots
 -----------
 
 ![Phone main activity](screenshots/PhoneMain.png "Main activity")
-![Phone main activity](screenshots/PhoneMain2.png "Main activity")
+![Phone main activity](screenshots/PhoneMain2.png "Main activity 2")
 ![Widget details](screenshots/widget.png "Widget details")
 ![Simple Widget](screenshots/simpleWidget.png "Simple widget")
 ![Weather notification](screenshots/notification.png "Notification")
