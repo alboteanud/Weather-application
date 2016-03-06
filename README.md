@@ -1,7 +1,7 @@
-Advanced Android Sample App
-===================================
+Weather Application
+===================
 
-Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. Used in the Udacity Advanced Android course.
+Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets
 
 Pre-requisites
 --------------
@@ -26,6 +26,7 @@ Screenshots
 -----------
 
 ![Phone main activity](screenshots/PhoneMain.png "Main activity")
+![Phone main activity](screenshots/PhoneMain2.png "Main activity")
 ![Widget details](screenshots/widget.png "Widget details")
 ![Simple Widget](screenshots/simpleWidget.png "Simple widget")
 ![Weather notification](screenshots/notification.png "Notification")
@@ -34,14 +35,6 @@ Screenshots
 
 
 
-Support
--------
-
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
-
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
 
 
 
