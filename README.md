@@ -1,10 +1,7 @@
 Weather Application
 ===================
 
-Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets
-Uses SQLite database to store local information
-Muzei source that changes your background based on the current weather conditions
-Daily weather notification
+Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. It uses SQLite database to store local information
 
 Screenshots
 -----------
