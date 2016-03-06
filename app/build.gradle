@@ -4,7 +4,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion '23.0.2'
     defaultConfig {
-        applicationId 'com.alboteanu.sunshine.ColoradoSprings'
+        applicationId 'com.alboteanu.sunshine.Minneapolis'
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 3

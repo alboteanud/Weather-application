@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
-    <string name="pref_location_default" translatable="false">Colorado Springs, Colorado</string>
-    <string name="app_name" translatable="false">Colorado Springs</string>
-    <string name="content_authority" translatable="false">com.alboteanu.sunshine.ColoradoSprings</string>
-    <string name="sync_account_type" translatable="false">ColoradoSprings.sunshine.alboteanu.com</string>
+    <string name="pref_location_default" translatable="false">Minneapolis, Minnesota</string>
+    <string name="app_name" translatable="false">Minneapolis</string>
+    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Minneapolis</string>
+    <string name="sync_account_type" translatable="false">Minneapolis.sunshine.alboteanu.com</string>
 
     <string name="photo_by">Photo by Johnny</string>
 
