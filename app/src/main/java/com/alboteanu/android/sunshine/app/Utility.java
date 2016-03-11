@@ -41,9 +41,10 @@ public class Utility {
     public static boolean isMetric(Context context) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         return prefs.getString(context.getString(R.string.pref_units_key),
-                context.getString(R.string.pref_units_imperial))                                                                   //  de modif
-                .equals(context.getString(R.string.pref_units_metric));
+                    context.getString(R.string.pref_units_imperial))                                                               //   de modif
+                    .equals(context.getString(R.string.pref_units_metric));
     }
+
 
     public static String formatTemperature(Context context, double temperature) {
         // Data stored in Celsius by default.  If user prefers to see in Fahrenheit, convert
@@ -104,8 +105,8 @@ public class Utility {
             return getDayName(context, dateInMillis);
         } else {
             // Otherwise, use the form "Mon Jun 3"
-            SimpleDateFormat shortenedDateFormat = new SimpleDateFormat("EEE MMM dd");                                        //  de modif
-                return shortenedDateFormat.format(dateInMillis);
+            SimpleDateFormat shortenedDateFormat = new SimpleDateFormat("EEE MMM dd");                              //   de modif
+            return shortenedDateFormat.format(dateInMillis);
 //                return shortenedDateFormat.format(dateInMillis)+ context.getString(R.string.semn_special);
         }
     }
@@ -589,6 +590,7 @@ public class Utility {
     }
 
     public static String getPrefereedRegion(){
+//        Log.d("region ", Locale.getDefault().getCountry());
         return Locale.getDefault().getCountry();
 
     }

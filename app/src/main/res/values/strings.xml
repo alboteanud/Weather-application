@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
-    <string name="pref_location_default" translatable="false">Minneapolis, Minnesota</string>
-    <string name="app_name" translatable="false">Minneapolis</string>
-    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Minneapolis</string>
-    <string name="sync_account_type" translatable="false">Minneapolis.sunshine.alboteanu.com</string>
+    <string name="pref_location_default" translatable="false">Cleveland, Ohio</string>
+    <string name="app_name" translatable="false">Cleveland</string>
+    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Cleveland</string>
+    <string name="sync_account_type" translatable="false">Cleveland.sunshine.alboteanu.com</string>
 
     <string name="photo_by">Photo by Johnny</string>
 
+    <!--Dan-->
     <string name="banner" translatable="false">ca-app-pub-3931793949981809/1383870774</string>
     <string name="interstitial" translatable="false">ca-app-pub-3931793949981809/5196681170</string>
-    <string name="banner_Mihaela" translatable="false">ca-app-pub-3931793949981809/4147537979</string>
-    <string name="interstitial_Mihaela" translatable="false">ca-app-pub-3931793949981809/5484670370</string>
-    <string name="banner_Petru" translatable="false">ca-app-pub-3931793949981809/1182365579</string>
-    <string name="interstitial_Petru" translatable="false">ca-app-pub-3931793949981809/2252002378</string>
+
+    <!--Mihaela-->
+    <!--<string name="banner" translatable="false">ca-app-pub-3931793949981809/4147537979</string>-->
+    <!--<string name="interstitial" translatable="false">ca-app-pub-3931793949981809/5484670370</string>-->
+
+    <!--Petru-->
+    <!--<string name="banner" translatable="false">ca-app-pub-3931793949981809/1182365579</string>-->
+    <!--<string name="interstitial" translatable="false">ca-app-pub-3931793949981809/2252002378</string>-->
+
+
     <string name="test_device" translatable="false">D7C3FED6C0273D67D38E0186CFA3B220</string>
     <string name="project_number" translatable="false">827537732216</string>
     <!--
