@@ -50,14 +50,12 @@
 
     <!-- the activated state color -->
     <color name="activated">#E0E0E0</color>
-    <color name="gray_semi">#4000</color>
+    <color name="gray_semi">#8000</color>
     <color name="transp">#0000</color>
 
     <!-- the color used for the low temperature in the forecast list -->
     <color name="forecast_low_text">#607D8B</color>
-
-
-
+    <color name="shadow_color">#a000</color>
 
 
 </resources>

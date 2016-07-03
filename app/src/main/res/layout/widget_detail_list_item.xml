@@ -54,6 +54,10 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 android:textColor="@color/white"
+                android:shadowColor="@color/shadow_color"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
                 android:text="Today, May 21"/>
 
             <TextView
@@ -62,6 +66,10 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/white"
+                android:shadowColor="@color/shadow_color"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
                 tools:text="@string/condition_500"/>
         </LinearLayout>
 
@@ -76,6 +84,10 @@
             android:fontFamily="sans-serif-light"
             android:textColor="@color/white"
             android:textSize="@dimen/forecast_widget_text_size"
+            android:shadowColor="@color/shadow_color"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="1"
             tools:text="10"/>
 
         <TextView
@@ -87,6 +99,10 @@
             android:fontFamily="sans-serif-light"
             android:textColor="@color/white"
             android:textSize="20dp"
+            android:shadowColor="@color/shadow_color"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="1"
             tools:text="7"/>
 
     </LinearLayout>

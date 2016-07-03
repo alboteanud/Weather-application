@@ -18,7 +18,11 @@
         app:layout_columnSpan="2"
         app:layout_columnWeight="1"
         app:layout_gravity="fill_horizontal"
-        tools:text="Today, April 03" />
+        tools:text="Today, April 03"
+        android:shadowColor="@color/shadow_color"
+        android:shadowDx="@dimen/shadow_Dx"
+        android:shadowDy="@dimen/shadow_Dy"
+        android:shadowRadius="@dimen/shadow_radius"/>
 
     <ImageView
         android:id="@+id/list_item_icon"
@@ -39,7 +43,11 @@
         android:textSize="72sp"
         app:layout_columnWeight="1"
         app:layout_gravity="fill_horizontal"
-        tools:text="19" />
+        tools:text="19"
+        android:shadowColor="@color/shadow_color"
+        android:shadowDx="@dimen/shadow_Dx"
+        android:shadowDy="@dimen/shadow_Dy"
+        android:shadowRadius="@dimen/shadow_radius"/>
 
     <TextView
         android:id="@+id/list_item_forecast_textview"
@@ -49,7 +57,11 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@android:color/white"
         app:layout_columnWeight="1"
-        tools:text="Rainy" />
+        tools:text="Rainy"
+        android:shadowColor="@color/shadow_color"
+        android:shadowDx="@dimen/shadow_Dx"
+        android:shadowDy="@dimen/shadow_Dy"
+        android:shadowRadius="@dimen/shadow_radius"/>
 
     <TextView
         android:id="@+id/list_item_low_textview"
@@ -60,6 +72,10 @@
         android:textColor="@android:color/white"
         android:textSize="36sp"
         app:layout_columnWeight="1"
-        tools:text="10" />
+        tools:text="10"
+        android:shadowColor="@color/shadow_color"
+        android:shadowDx="@dimen/shadow_Dx"
+        android:shadowDy="@dimen/shadow_Dy"
+        android:shadowRadius="@dimen/shadow_radius"/>
 
 </android.support.v7.widget.GridLayout>

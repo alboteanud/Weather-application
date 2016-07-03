@@ -61,6 +61,7 @@ public class Utility {
     static String formatDate(long dateInMilliseconds) {
         Date date = new Date(dateInMilliseconds);
         return DateFormat.getDateInstance().format(date);
+
     }
 
 

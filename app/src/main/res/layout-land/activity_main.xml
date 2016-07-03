@@ -22,13 +22,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:sharedElementTransitions="true"
-    tools:context="com.example.dan.testads.MainActivity">
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/backgroundImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/primary"
+        android:src="@drawable/c"
         android:scaleType="centerCrop" />
 
     <fragment

@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
     public static final String PROPERTY_REG_ID = "registration_id";
     private static final String PROPERTY_APP_VERSION = "appVersion";
     private SharedPreferences prefs;
+    public static final long MIN_SYNC_INTERVAL_IN_MILLIS = 1000 * 60 * 20;
 
     /**
      * Substitute you own project number here. This project number comes
@@ -124,6 +125,7 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
 
         SunshineSyncAdapter.initializeSyncAdapter(this);
 
+
         // If Google Play Services is not available, some features, such as GCM-powered weather
         // alerts, will not be available.
         if (checkPlayServices()) {
@@ -183,6 +185,8 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
         return super.onOptionsItemSelected(item);
     }
 
+
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -208,6 +212,17 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
         }
 //        if(adView!=null)
 //            adView.resume();
+
+        String lastSyncKey = getString(R.string.pref_last_sync);
+        long lastSync = prefs.getLong(lastSyncKey, System.currentTimeMillis());
+
+        if (System.currentTimeMillis() - lastSync >= MIN_SYNC_INTERVAL_IN_MILLIS) {
+            SunshineSyncAdapter.syncImmediately(this);
+
+            SharedPreferences.Editor editor = prefs.edit();
+            editor.putLong(lastSyncKey, System.currentTimeMillis());
+            editor.commit();
+        }
     }
 
     @Override
@@ -372,7 +387,7 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
         super.onStop();
         String lastBackgroundChangeKey = getString(R.string.pref_last_background_change);
         long lastBackgroundChange = prefs.getLong(lastBackgroundChangeKey, 0);
-        if (System.currentTimeMillis() - lastBackgroundChange >= SunshineSyncAdapter.DAY_IN_MILLIS) {
+        if (System.currentTimeMillis() - lastBackgroundChange >= SunshineSyncAdapter.MIN_SYNC_INTERVAL_IN_MILLIS) {
 
             // Get a random between 0 and images.length-1
             int new_id_image = (int)(Math.random() * images.length);

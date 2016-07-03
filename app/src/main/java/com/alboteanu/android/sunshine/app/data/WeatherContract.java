@@ -32,7 +32,7 @@ public class WeatherContract {
     // device.
 
 
-    public static final String CONTENT_AUTHORITY = "com.alboteanu.sunshine.Cleveland";
+    public static final String CONTENT_AUTHORITY = "com.alboteanu.sunshine.Sacramento";
 
     // Use CONTENT_AUTHORITY to create the base of all URI's which apps will use to contact
     // the content provider.
@@ -130,6 +130,10 @@ public class WeatherContract {
 
         public static Uri buildWeatherUri(long id) {
             return ContentUris.withAppendedId(CONTENT_URI, id);
+        }
+
+        public static Uri weatherWithLocationQuery(String locationSetting){
+            return CONTENT_URI.buildUpon().appendPath(locationSetting).build();
         }
 
         /*

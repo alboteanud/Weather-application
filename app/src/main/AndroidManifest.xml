@@ -72,7 +72,8 @@
         <provider
             android:name=".data.WeatherProvider"
             android:authorities="@string/content_authority"
-            android:exported="false"
+            android:permission = "android.permission.READ_SUNSHINE"
+            android:exported="true"
             android:syncable="true" />
 
         <!-- SyncAdapter's dummy authentication service -->

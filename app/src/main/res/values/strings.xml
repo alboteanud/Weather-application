@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
-    <string name="pref_location_default" translatable="false">Cleveland, Ohio</string>
-    <string name="app_name" translatable="false">Cleveland</string>
-    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Cleveland</string>
-    <string name="sync_account_type" translatable="false">Cleveland.sunshine.alboteanu.com</string>
+    <string name="pref_location_default" translatable="false">Sacramento, US</string>
+    <string name="app_name" translatable="false">Sacramento</string>
+    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Sacramento</string>
+    <string name="sync_account_type" translatable="false">Sacramento.sunshine.alboteanu.com</string>
 
     <string name="photo_by">Photo by Johnny</string>
 
     <!--Dan-->
-    <string name="banner" translatable="false">ca-app-pub-3931793949981809/1383870774</string>
-    <string name="interstitial" translatable="false">ca-app-pub-3931793949981809/5196681170</string>
+<!--    <string name="banner" translatable="false">ca-app-pub-3931793949981809/1383870774</string>
+    <string name="interstitial" translatable="false">ca-app-pub-3931793949981809/5196681170</string>-->
 
     <!--Mihaela-->
-    <!--<string name="banner" translatable="false">ca-app-pub-3931793949981809/4147537979</string>-->
-    <!--<string name="interstitial" translatable="false">ca-app-pub-3931793949981809/5484670370</string>-->
+    <string name="banner" translatable="false">ca-app-pub-3931793949981809/4147537979</string>
+    <string name="interstitial" translatable="false">ca-app-pub-3931793949981809/5484670370</string>
 
     <!--Petru-->
     <!--<string name="banner" translatable="false">ca-app-pub-3931793949981809/1182365579</string>-->
@@ -141,6 +141,7 @@
 
     <!-- Strings related to Notification preference -->
     <string name="pref_last_notification" translatable="false">last_notification</string>
+    <string name="pref_last_sync" translatable="false">last_sync</string>
     <string name="pref_last_background_change" translatable="false">last_background_change</string>
     <string name="pref_background_image_key" translatable="false">background_image_key</string>
 
@@ -238,7 +239,6 @@
     <string name="wiget_description" translatable="false">icon</string>
     <!--<string name="semn_special"></string>  &lt;!&ndash;  日  special pt China&ndash;&gt;-->
     <string name="backgroundImage" translatable="false">background image</string>
-
 
 
 </resources>
