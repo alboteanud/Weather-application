@@ -1,5 +1,5 @@
 package com.alboteanu.android.sunshine.app.sync;
-
+// test
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.annotation.SuppressLint;
