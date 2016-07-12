@@ -213,7 +213,9 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
 //        if(adView!=null)
 //            adView.resume();
 
-        String lastSyncKey = getString(R.string.pref_last_sync);
+
+        // sinc if not sinced in the last 20 min
+/*        String lastSyncKey = getString(R.string.pref_last_sync);
         long lastSync = prefs.getLong(lastSyncKey, System.currentTimeMillis());
 
         if (System.currentTimeMillis() - lastSync >= MIN_SYNC_INTERVAL_IN_MILLIS) {
@@ -222,7 +224,7 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
             SharedPreferences.Editor editor = prefs.edit();
             editor.putLong(lastSyncKey, System.currentTimeMillis());
             editor.commit();
-        }
+        }*/
     }
 
     @Override

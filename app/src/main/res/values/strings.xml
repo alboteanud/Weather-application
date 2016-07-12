@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
-    <string name="pref_location_default" translatable="false">Sacramento, US</string>
-    <string name="app_name" translatable="false">Sacramento</string>
-    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Sacramento</string>
-    <string name="sync_account_type" translatable="false">Sacramento.sunshine.alboteanu.com</string>
 
-    <string name="photo_by">Photo by Johnny</string>
+    
+    <string name="pref_location_default" translatable="false">Corpus Christi, US</string>
+    <string name="app_name" translatable="false">Corpus Christi</string>
+    <string name="content_authority" translatable="false">com.alboteanu.sunshine.CorpusChristi</string>
+    <string name="sync_account_type" translatable="false">CorpusChristi.sunshine.alboteanu.com</string>
+
+    
+    
+
 
     <!--Dan-->
 <!--    <string name="banner" translatable="false">ca-app-pub-3931793949981809/1383870774</string>
     <string name="interstitial" translatable="false">ca-app-pub-3931793949981809/5196681170</string>-->
 
     <!--Mihaela-->
-    <string name="banner" translatable="false">ca-app-pub-3931793949981809/4147537979</string>
+<!--    <string name="banner" translatable="false">ca-app-pub-3931793949981809/4147537979</string>
+    <string name="interstitial" translatable="false">ca-app-pub-3931793949981809/5484670370</string>-->
+
+    <!--Anca -->
+    <string name="banner" translatable="false">ca-app-pub-1015344817183694/3367545361</string>
     <string name="interstitial" translatable="false">ca-app-pub-3931793949981809/5484670370</string>
 
     <!--Petru-->
@@ -31,6 +39,7 @@
     <string name="action_map">Map location</string>
     <string name="action_share">Share</string>
 
+    <string name="photo_by">Photo by Johnny</string>
 
     <string name="title_activity_detail" translatable="false">Details</string>
     <string name="title_activity_settings">Settings</string>
