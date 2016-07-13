@@ -4,10 +4,10 @@ android {
     compileSdkVersion 24
     buildToolsVersion '23.0.3'
     defaultConfig {
-        applicationId 'com.alboteanu.sunshine.CorpusChristi'
+        applicationId 'com.alboteanu.sunshine.Riverside'
         minSdkVersion 16
         targetSdkVersion 24
-        versionCode 5
+        versionCode 4
         versionName '4'
     }
     buildTypes {

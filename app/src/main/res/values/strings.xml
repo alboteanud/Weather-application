@@ -3,10 +3,10 @@
 
 
     
-    <string name="pref_location_default" translatable="false">Corpus Christi, US</string>
-    <string name="app_name" translatable="false">Corpus Christi</string>
-    <string name="content_authority" translatable="false">com.alboteanu.sunshine.CorpusChristi</string>
-    <string name="sync_account_type" translatable="false">CorpusChristi.sunshine.alboteanu.com</string>
+    <string name="pref_location_default" translatable="false">Riverside, US</string>
+    <string name="app_name" translatable="false">Riverside</string>
+    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Riverside</string>
+    <string name="sync_account_type" translatable="false">Riverside.sunshine.alboteanu.com</string>
 
     
     
