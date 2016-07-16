@@ -3,10 +3,10 @@
 
 
     
-    <string name="pref_location_default" translatable="false">Riverside, US</string>
-    <string name="app_name" translatable="false">Riverside</string>
-    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Riverside</string>
-    <string name="sync_account_type" translatable="false">Riverside.sunshine.alboteanu.com</string>
+    <string name="pref_location_default" translatable="false">St. Louis, US</string>
+    <string name="app_name" translatable="false">St. Louis</string>
+    <string name="content_authority" translatable="false">com.alboteanu.sunshine.StLouis</string>
+    <string name="sync_account_type" translatable="false">StggLouis.sunshine.alboteanu.com</string>
 
     
     

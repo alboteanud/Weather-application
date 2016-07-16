@@ -29,10 +29,11 @@
          font sizes, and going larger will cause lots of view problems.  This is only for
          the large forecast numbers in the forecast list -->
     <dimen name="forecast_text_size">24sp</dimen>
+    <!--24dp-->
 
     <!-- This is an odd width, but we're trying to match the font closely to keep things working
          on devices that don't yet have Roboto -->
-    <dimen name="forecast_text_width">48dp</dimen>
+    <dimen name="forecast_text_width">52dp</dimen>
     <dimen name="forecast_temperature_space">8dp</dimen>
 
     <!-- Extra Padding -->
@@ -69,11 +70,11 @@
     <!-- Text Sizes - We are using DP here rather than SP because these are already large
          font sizes, and going larger will cause lots of view problems.  This is only for
          the large forecast numbers in the forecast list -->
-    <dimen name="forecast_widget_text_size">24dp</dimen>
+    <dimen name="forecast_widget_text_size">20dp</dimen>
 
     <!-- This is an odd width, but we're trying to match the font closely to keep things working
          on devices that don't yet have Roboto -->
-    <dimen name="forecast_widget_text_width">38dp</dimen>
+    <dimen name="forecast_widget_text_width">42dp</dimen>
     <dimen name="widget_margin">8dp</dimen>
     <dimen name="widget_margin_low">4dp</dimen>
 
