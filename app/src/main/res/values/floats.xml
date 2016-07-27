@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="shadow_radius" format="float" type="dimen">1.0</item>
-    <item name="shadow_Dx" format="float" type="dimen">1.0</item>
-    <item name="shadow_Dy" format="float" type="dimen">1.0</item>
+    <item name="shadow_radius" format="float" type="dimen">1.6</item>
+    <item name="shadow_Dx" format="float" type="dimen">1.6</item>
+    <item name="shadow_Dy" format="float" type="dimen">1.6</item>
 </resources>
