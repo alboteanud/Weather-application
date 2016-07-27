@@ -158,7 +158,8 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
     private void loadBanner(){
         adView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(getString(R.string.test_device))
+                .addTestDevice(getString(R.string.test_device))         //LG G3 Dan
+                .addTestDevice("2DB131DC76C77E6EFE4D8A59750E6EF3")          //Lenovo Mihaela
                 .setRequestAgent("android_studio:ad_template").build();
         adView.loadAd(adRequest);
     }

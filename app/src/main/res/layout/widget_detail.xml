@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2015 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,33 +19,36 @@
     android:padding="@dimen/widget_margin">
 
 
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary"
+        android:contentDescription="@string/backgroundImage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/backgroundImageView"
-            android:background="@color/primary"
-            android:scaleType="centerCrop"
-            android:src="@drawable/c"
-            android:contentDescription="@string/backgroundImage" />
     <TextView
         android:id="@+id/widget_empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/empty_forecast_list"
         android:textAppearance="?android:textAppearanceLarge"
-        android:text="@string/empty_forecast_list"/>
+        android:textColor="@color/white"
+        android:shadowColor="@color/shadow_color"
+        android:shadowDx="@dimen/shadow_radius"
+        android:shadowDy="@dimen/shadow_Dy"
+        android:shadowRadius="@dimen/shadow_Dx"/>
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-        <FrameLayout
-            android:id="@+id/widget"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/abc_action_bar_default_height_material"
-            android:background="@drawable/gradient_gray_0">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars = "vertical">
+
+
             <!-- <ImageView
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
@@ -56,31 +58,32 @@
                  />-->
 
             <TextView
-                android:id="@+id/widget_name"
+                android:id="@+id/widget"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/abc_action_bar_default_height_material"
+                android:background="@drawable/gradient_gray_0"
                 android:gravity="center"
-                android:layout_gravity="center_vertical"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textStyle="bold"
-                android:text="@string/app_name"
-                android:textColor="@color/white"
                 android:shadowColor="@color/shadow_color"
-                android:shadowDx="3"
-                android:shadowDy="3"
-                android:shadowRadius="1"/>
+                android:shadowDx="@dimen/shadow_radius"
+                android:shadowDy="@dimen/shadow_Dy"
+                android:shadowRadius="@dimen/shadow_Dx"
+                android:text="@string/app_name"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:scrollbars = "vertical"/>
 
-        </FrameLayout>
 
         <ListView
             android:id="@+id/widget_list"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:divider="@null"
             android:dividerHeight="0dp"
-            tools:listitem="@layout/widget_detail_list_item"/>
+            android:layout_gravity="center_horizontal"
+            tools:listitem="@layout/widget_detail_list_item" />
 
 
-</LinearLayout>
+    </LinearLayout>
 </FrameLayout>

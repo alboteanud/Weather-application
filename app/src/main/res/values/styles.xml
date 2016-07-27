@@ -44,7 +44,7 @@
         <item name="colorAccent">@color/accent</item>
         <item name="toolbarStyle">@style/Toolbar</item>
     </style>
-
+<!--    <item name="toolbarStyle">@style/Toolbar</item>-->
 
     <!-- Settings activity theme. -->
     <style name="SettingsTheme" parent="AppTheme">
@@ -61,10 +61,20 @@
 
     <!-- main activity toolbar style -->
     <style name="Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="popupTheme">@style/Theme.AppCompat.Light.DarkActionBar</item>
         <item name="android:background">@drawable/gradient_gray_0</item>
-        <item name="popupTheme">@style/Theme.AppCompat.Light</item>
-    </style>
+        </style>
 
+
+<!--       <item name="android:theme">@style/Theme.AppCompat.Light.DarkActionBar</item>
+        <item name="android:background">@drawable/gradient_gray_0</item>
+<item name="android:shadowDx">@dimen/shadow_Dx</item>
+<item name="android:shadowDy">@dimen/shadow_Dy</item>
+<item name="android:shadowRadius">@dimen/shadow_radius</item>
+        <item name="android:textColor">@color/white</item>
+    </style>-->
+
+<!--    <item name="popupTheme">@style/Theme.AppCompat.Light.DarkActionBar</item>-->
 
     <!--main activity toolbar style -->
     <!-- <style name="Toolbar" parent="Widget.AppCompat.Toolbar">

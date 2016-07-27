@@ -55,9 +55,9 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 android:textColor="@color/white"
                 android:shadowColor="@color/shadow_color"
-                android:shadowDx="3"
-                android:shadowDy="3"
-                android:shadowRadius="1"
+                android:shadowDx="@dimen/shadow_Dx"
+                android:shadowDy="@dimen/shadow_Dy"
+                android:shadowRadius="@dimen/shadow_radius"
                 android:text="Today, May 21"/>
 
             <TextView
@@ -67,9 +67,9 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/white"
                 android:shadowColor="@color/shadow_color"
-                android:shadowDx="3"
-                android:shadowDy="3"
-                android:shadowRadius="1"
+                android:shadowDx="@dimen/shadow_Dx"
+                android:shadowDy="@dimen/shadow_Dy"
+                android:shadowRadius="@dimen/shadow_radius"
                 tools:text="@string/condition_500"/>
         </LinearLayout>
 
@@ -85,9 +85,9 @@
             android:textColor="@color/white"
             android:textSize="@dimen/forecast_widget_text_size"
             android:shadowColor="@color/shadow_color"
-            android:shadowDx="3"
-            android:shadowDy="3"
-            android:shadowRadius="1"
+            android:shadowDx="@dimen/shadow_Dx"
+            android:shadowDy="@dimen/shadow_Dy"
+            android:shadowRadius="@dimen/shadow_radius"
             tools:text="10"/>
 
         <TextView
@@ -100,9 +100,9 @@
             android:textColor="@color/white"
             android:textSize="20dp"
             android:shadowColor="@color/shadow_color"
-            android:shadowDx="3"
-            android:shadowDy="3"
-            android:shadowRadius="1"
+            android:shadowDx="@dimen/shadow_Dx"
+            android:shadowDy="@dimen/shadow_Dy"
+            android:shadowRadius="@dimen/shadow_radius"
             tools:text="7"/>
 
     </LinearLayout>

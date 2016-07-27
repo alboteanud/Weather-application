@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-
-
     
-    <string name="pref_location_default" translatable="false">St. Louis, US</string>
-    <string name="app_name" translatable="false">St. Louis</string>
-    <string name="content_authority" translatable="false">com.alboteanu.sunshine.StLouis</string>
-    <string name="sync_account_type" translatable="false">StggLouis.sunshine.alboteanu.com</string>
-
-    
-    
-
+    <string name="pref_location_default" translatable="false">Greensboro, North Carolina</string>
+    <string name="app_name" translatable="false">Greensboro</string>
+    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Greensboro</string>
+    <string name="sync_account_type" translatable="false">Greensboro.sunshine.alboteanu.com</string>
 
     <!--Dan-->
 <!--    <string name="banner" translatable="false">ca-app-pub-3931793949981809/1383870774</string>
