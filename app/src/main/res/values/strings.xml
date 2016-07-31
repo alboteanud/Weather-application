@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-    
-    <string name="pref_location_default" translatable="false">Chandler, Arizona</string>
-    <string name="app_name" translatable="false">Chandler</string>
+    r
+    <string name="pref_location_default" translatable="false">St.Petersburg, Florida</string>
+    <string name="app_name" translatable="false">St.Petersburg, FL</string>
 
-    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Chandler</string>
-    <string name="sync_account_type" translatable="false">Chandler.sunshine.alboteanu.com</string>
+    <string name="content_authority" translatable="false">com.alboteanu.sunshine.StPetersburg</string>
+    <string name="sync_account_type" translatable="false">StPetersburg.sunshine.alboteanu.com</string>
 
     <!--Dan-->
 <!--    <string name="banner" translatable="false">ca-app-pub-3931793949981809/1383870774</string>
