@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     r
-    <string name="pref_location_default" translatable="false">St.Petersburg, Florida</string>
-    <string name="app_name" translatable="false">St.Petersburg, FL</string>
+    <string name="pref_location_default" translatable="false">St. Petersburg, Florida</string>
+    <string name="app_name" translatable="false">St. Petersburg, Florida</string>
 
     <string name="content_authority" translatable="false">com.alboteanu.sunshine.StPetersburg</string>
     <string name="sync_account_type" translatable="false">StPetersburg.sunshine.alboteanu.com</string>
