@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     r
-    <string name="pref_location_default" translatable="false">Laredo, Texas</string>
-    <string name="app_name" translatable="false">Laredo</string>
+    <string name="pref_location_default" translatable="false">Lubbock, Texas</string>
+    <string name="app_name" translatable="false">Lubbock</string>
 
-    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Laredo</string>
-    <string name="sync_account_type" translatable="false">Laredo.sunshine.alboteanu.com</string>
+    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Lubbock</string>
+    <string name="sync_account_type" translatable="false">Lubbock.sunshine.alboteanu.com</string>
 
     <!--Dan-->
 <!--    <string name="banner" translatable="false">ca-app-pub-3931793949981809/1383870774</string>
