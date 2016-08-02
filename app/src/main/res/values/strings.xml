@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     r
-    <string name="pref_location_default" translatable="false">Norfolk, Virginia</string>
-    <string name="app_name" translatable="false">Norfolk</string>
+    <string name="pref_location_default" translatable="false">Winston–Salem, North Carolina</string>
+    <string name="app_name" translatable="false">Winston–Salem</string>
 
-    <string name="content_authority" translatable="false">com.alboteanu.sunshine.Norfolk</string>
-    <string name="sync_account_type" translatable="false">Norfolk.sunshine.alboteanu.com</string>
+    <string name="content_authority" translatable="false">com.alboteanu.sunshine.WinstonSalem</string>
+    <string name="sync_account_type" translatable="false">WinstonSalem.sunshine.alboteanu.com</string>
 
     <!--Dan-->
 <!--    <string name="banner" translatable="false">ca-app-pub-3931793949981809/1383870774</string>
