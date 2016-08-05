@@ -32,7 +32,7 @@ public class WeatherContract {
     // device.
 
 
-    public static final String CONTENT_AUTHORITY = "com.alboteanu.sunshine.Irving";
+    public static final String CONTENT_AUTHORITY = "com.alboteanu.sunshine.Chesapeake";
 //    public static final String CONTENT_AUTHORITY = "com.alboteanu.sunshine.Irving";
 //    public static final String CONTENT_AUTHORITY = "com.alboteanu.sunshine.Scottsdale";
 //    public static final String CONTENT_AUTHORITY = "com.alboteanu.sunshine.Garland";
