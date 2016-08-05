@@ -33,6 +33,8 @@ public class WeatherContract {
 
 
     public static final String CONTENT_AUTHORITY = "com.alboteanu.sunshine.Scottsdale";
+//    public static final String CONTENT_AUTHORITY = "com.alboteanu.sunshine.Scottsdale";
+//    public static final String CONTENT_AUTHORITY = "com.alboteanu.sunshine.Garland";
 
     // Use CONTENT_AUTHORITY to create the base of all URI's which apps will use to contact
     // the content provider.
