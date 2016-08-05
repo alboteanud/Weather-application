@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion '23.0.3'
     defaultConfig {
-        applicationId 'com.alboteanu.sunshine.Garland'
+        applicationId 'com.alboteanu.sunshine.Scottsdale'
         minSdkVersion 16
         targetSdkVersion 24
         versionCode 3
